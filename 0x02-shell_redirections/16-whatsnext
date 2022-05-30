@@ -1,0 +1,2 @@
+#!/bin/bash
+rep -i "root" -A 3 /etc/passwd
