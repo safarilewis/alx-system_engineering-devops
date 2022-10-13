@@ -2,7 +2,7 @@
 # displays the numbers 1-20 with special cases based on Chinese myth
 
 count=1
-while[ $count -le 20 ]
+while [ $count -le 20 ]
 do
 echo "$count"
 case "$count" in
