@@ -9,5 +9,5 @@ while [ "$HOUR" -lt 13 ]; do
 	echo "$MINUTE"
 	((MINUTE++))
     done
-    ((HOUR++)))
+    ((HOUR++))
 done
