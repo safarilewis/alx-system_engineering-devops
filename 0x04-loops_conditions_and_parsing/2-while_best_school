@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # uses while to print best school 10x
 
-while {1..10}; do echo "Best School"; done
+while (1..10); do echo "Best School"; done
