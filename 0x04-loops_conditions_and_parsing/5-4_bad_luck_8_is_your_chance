@@ -2,7 +2,8 @@
 #loops and conditions
 
 count=0
-while [ $count -lt 10 ] do
+while [ $count -lt 10 ]
+do
 if [ $count -eq 4 ]
     then
         echo "bad luck"
@@ -13,3 +14,4 @@ else
     echo "Best School"
     fi
     ((count++))
+done
