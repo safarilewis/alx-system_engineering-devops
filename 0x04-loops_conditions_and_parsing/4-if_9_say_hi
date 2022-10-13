@@ -2,7 +2,7 @@
 #Prints best school with a condition on the 9th Prints
 
 count=0
-while [ $count -le 10 ]
+while [ $count -lt 10 ]
 do
     echo "Best school"
     if [ $count -eq 8 ]
