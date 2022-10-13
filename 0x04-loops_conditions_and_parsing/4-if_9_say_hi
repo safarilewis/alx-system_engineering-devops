@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #Prints best school with a condition on the 9th Prints
 
-count=1
+count=0
 while [ $count -le 10 ]
 do
     echo "Best school"
