@@ -3,3 +3,4 @@
 Host ubuntu
 HostName 54.236.46.103
 IdentityFile ~/.ssh/school
+BatchMode no
