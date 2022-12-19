@@ -1,3 +1,4 @@
+# Configures nginx server
 include stdlib
 package { 'nginx':
   ensure => installed
