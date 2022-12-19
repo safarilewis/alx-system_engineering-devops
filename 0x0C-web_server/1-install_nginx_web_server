@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Script that sets up nginx
+sudo apt update
+sudo apt install nginx
+echo 'Hello World!' > index.html
+sudo cp index.html /var/www/html/index.nginx-debian.html
+sudo service nginx restart
