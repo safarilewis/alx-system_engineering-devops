@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# This script shows information about web servers of a domain.
+info(){
+	dig "$2"."$1"|awk -v sbd="$2" '/ANSWER SECTION:/{getline; print "The subdomain " sbd " is a " $4 " record and points to " $5}'
+}
+if ! [ "$2" ]
+then
+	info "$1" "www"
+	info "$1" "lb-01"
+	info "$1" "web-01"
+	info "$1" "web-02"
+else
+	info "$1" "$2"
+fi
