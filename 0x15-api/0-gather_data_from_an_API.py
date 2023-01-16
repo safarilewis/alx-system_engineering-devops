@@ -8,8 +8,7 @@ import requests
 
 
 if __name__ == '__main__':
-    url = 'https://jsonplaceholder.typicode.com/users/'
-    r = requests.get(url + sys.argv[1])
+    r = requests.get("https://jsonplaceholder.typicode.com/users/" + sys.argv[1])
     dict = json.loads(r.text)
     name = dict.get('name')
     resp = requests.get("https://jsonplaceholder.typicode.com/todos/" +
