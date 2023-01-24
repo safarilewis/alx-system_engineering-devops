@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""
-Returns info about an employee
-"""
+"""Returns info about an employee"""
 import json
 import requests
 import sys
