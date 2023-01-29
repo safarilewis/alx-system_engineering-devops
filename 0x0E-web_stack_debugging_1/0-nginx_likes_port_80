@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# This script fixes the sites-enabled default file with port 80.
-sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
+#fixes a Nginx server by changing the port to 80
+sed -i 's/8080/80/' /etc/nginx/sites-enabled/default
 service nginx restart
